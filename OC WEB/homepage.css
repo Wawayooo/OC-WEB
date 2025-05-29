@@ -1,0 +1,349 @@
+.Panel{
+  height: 120vh;
+  width: 100vw;
+  background-image: url(assets/BG.jpg);
+  background-size: cover;
+  left: 0;
+  position: absolute;
+}
+
+#Image1{
+  height: 700px;
+  width: 1250px;
+  background-image: url(assets/75Logo.png);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+/* this is an actual white box rotated 20 degrees
+#whiteBox{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  transform: rotate(20deg);
+  right: -73px;
+  top: -93px;
+}
+*/
+
+#whiteBox{
+  width: 400px;
+  height: 270px;
+  right: 0;
+  top: 0;
+  background-image: url(assets/OCLoGo.png);
+  background-size: cover;
+  position: absolute;
+}
+
+.EnrollLabel{
+  position: fixed;
+  left: 20px;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+  height: 100px;
+  width: 330px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 10;
+}
+
+.EnrollLabel h4{
+  font-size: 57px;
+  font-family: fantasy;
+  color: white;
+}
+
+.OCLabel{
+  position: absolute;
+  left: 36%;
+  top: 0;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+  height: 200px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.OCLabel h3{
+  font-size: 60px;
+  color: white;
+}
+
+.coursePanel_CompSci{
+  height: 280px;
+  width: 280px;
+  position: relative;
+  background-color: rgb(255,255, 255,0.9);
+  display: flex;
+  align-items: center;
+  left: 180px;
+  top: 30%;
+  border-radius: 20px;
+}
+
+#CSLabel{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+}
+
+.GoToCS{
+  height: 200px;
+  width: 200px;
+  background-image: url(assets/CompSci.jpg);
+  background-size: 210px, 0px;
+  position: relative;
+  border-radius: 50%;
+  left: 38px;
+}
+
+.coursePanel_Crim{
+  height: 280px;
+  width: 280px;
+  position: relative;
+  background-color: rgb(255,255, 255,0.9);
+  display: flex;
+  align-items: center;
+  left: 500px;
+  top: 0;
+  border-radius: 20px;
+}
+
+#CrimLabel{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+}
+
+.GoToCrim{
+  height: 200px;
+  width: 200px;
+  background-image: url(assets/CompSci.jpg);
+  background-size: 210px, 0px;
+  position: relative;
+  border-radius: 50%;
+  left: 38px;
+}
+
+.coursePanel_HM{
+  height: 280px;
+  width: 280px;
+  position: relative;
+  background-color: rgb(255,255, 255,0.9);
+  display: flex;
+  align-items: center;
+  left: 820px;
+  top: -279px;
+  border-radius: 20px;
+}
+
+#HMLabel{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+}
+
+.GoToHM{
+  height: 200px;
+  width: 200px;
+  background-image: url(assets/CompSci.jpg);
+  background-size: 210px, 0px;
+  position: relative;
+  border-radius: 50%;
+  left: 38px;
+}
+
+.coursePanel_BAMF{
+  height: 280px;
+  width: 280px;
+  position: relative;
+  background-color: rgb(255,255, 255,0.9);
+  display: flex;
+  align-items: center;
+  left: 1145px;
+  top: -559px;
+  border-radius: 20px;
+}
+
+#BAMFLabel{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+}
+
+.GoToBAMF{
+  height: 200px;
+  width: 200px;
+  background-image: url(assets/CompSci.jpg);
+  background-size: 210px, 0px;
+  position: relative;
+  border-radius: 50%;
+  left: 38px;
+}
+
+.coursePanel_MA{
+  height: 280px;
+  width: 280px;
+  position: relative;
+  background-color: rgb(255,255, 255,0.9);
+  display: flex;
+  align-items: center;
+  left: 999px;
+  top: -518px;
+  border-radius: 20px;
+}
+
+#MALabel{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+}
+
+.GoToMA{
+  height: 200px;
+  width: 200px;
+  background-image: url(assets/CompSci.jpg);
+  background-size: 210px, 0px;
+  position: relative;
+  border-radius: 50%;
+  left: 38px;
+}
+
+.coursePanel_SE{
+  height: 280px;
+  width: 280px;
+  position: relative;
+  background-color: rgb(255,255, 255,0.9);
+  display: flex;
+  align-items: center;
+  left: 658px;
+  top: -800px;
+  border-radius: 20px;
+}
+
+#SELabel{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+}
+
+.GoToSE{
+  height: 200px;
+  width: 200px;
+  background-image: url(assets/CompSci.jpg);
+  background-size: 210px, 0px;
+  position: relative;
+  border-radius: 50%;
+  left: 38px;
+}
+
+.coursePanel_EE{
+  height: 280px;
+  width: 280px;
+  position: relative;
+  background-color: rgb(255,255, 255,0.9);
+  display: flex;
+  align-items: center;
+  left: 315px;
+  top: -1080px;
+  border-radius: 20px;
+}
+
+#EELabel{
+  position: absolute;
+  left: 20px;
+  top: 0;
+  font-size: 19px;
+  font-style: italic;
+  font-family: auto;
+}
+
+.GoToEE{
+  height: 200px;
+  width: 200px;
+  background-image: url(assets/CompSci.jpg);
+  background-size: 210px, 0px;
+  position: relative;
+  border-radius: 50%;
+  left: 38px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #Image1{
+    height: 140px;
+    width: 215px;
+    background-image: url(assets/75Logo.png);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  #whiteBox{
+    width: 100px;
+    height: 60px;
+    right: 0;
+    top: 0;
+    background-image: url(assets/OCLoGo.png);
+    background-size: cover;
+    position: absolute;
+  }
+}
+
+.Panel, #Image1, #whiteBox {
+  animation: fadeInSlide 1.5s ease-out forwards;
+}
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.Panel {
+  transform-origin: 0 50%;
+  animation: fadeInSlideUp 2.5s ease-out forwards;
+}
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+
+  }
+}
